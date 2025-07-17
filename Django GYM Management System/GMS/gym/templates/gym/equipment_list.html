@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}
+Equioment Page
+{% endblock title %}
+
+{% block content %}
+
+
+<h2>Equipment Inventory</h2>
+<ul>
+    {% for e in equipments %}
+    <li>{{ e.name }} - {{ e.quantity }}</li>
+    {% endfor %}
+</ul>
+
+
+
+{% endblock content %}

@@ -1,0 +1,11 @@
+# Environments
+gms_venv
+
+# Django stuff:
+settings.py
+db.sqlite3
+__pycache__
+migrations
+
+# Documentation
+text.md

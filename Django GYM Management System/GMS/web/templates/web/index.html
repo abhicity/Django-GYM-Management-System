@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}
+Index Page
+{% endblock title %}
+
+{% block content %}
+<h1>Welcome to Home Page</h1>
+
+<h1>Welcome to GYM Management System</h1>
+<nav>
+    <a href="{% url 'gym:equipment' %}">Equipment</a> |
+    <a href="{% url 'gym:plans' %}">Membership Plans</a> |
+    <a href="{% url 'gym:enquiry' %}">Enquiry</a> |
+    <a href="{% url 'gym:logout' %}">Logout</a>
+</nav>
+
+{% endblock content %}
